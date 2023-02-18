@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Tour</title>
+</head>
+<body>
+    
+    <!-- start: Navbar -->
+    <nav>
+        <div class="container">
+            <div class="navbar-wrapper">
+                <a href="#" class="navbar-logo">
+                    <img src="img/tour-logo.png" alt="Tour logo">
+                </a>
+                <div class="navbar-menu-wrapper">
+                    <div class="navbar-menu-header">
+                        <div class="navbar-menu-title">Menu</div>
+                        <a href="#" data-dismiss="navbar-menu" class="navbar-menu-close">&times;</a>
+                    </div>
+                    <ul class="navbar-menu">
+                        <li>
+                            <a href="#" data-toggle="navbar-submenu" data-target="#destinations">Destinations <i class="ri-arrow-down-s-line"></i></a>
+                            <div class="navbar-submenu-wrapper">
+                                <div class="navbar-submenu-menu-wrapper" id="destinations">
+                                    <div class="navbar-submenu-header">
+                                        <a href="#" data-dismiss="navbar-submenu" class="navbar-submenu-back">Back</a>
+                                        <a href="#" data-dismiss="navbar-menu" class="navbar-menu-close">&times;</a>
+                                    </div>
+                                    <ul class="navbar-submenu-menu">
+                                        <li><a href="#" data-toggle="navbar-submenu-content navbar-submenu" data-target="#destination-asia" class="active">Asia <i class="ri-arrow-right-s-line"></i></a></li>
+                                        <li><a href="#" data-toggle="navbar-submenu-content navbar-submenu" data-target="#destination-africa">Africa <i class="ri-arrow-right-s-line"></i></a></li>
+                                        <li><a href="#" data-toggle="navbar-submenu-content navbar-submenu" data-target="#destination-europe">Europe <i class="ri-arrow-right-s-line"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="navbar-submenu-content-wrapper active" id="destination-asia">
+                                    <div class="navbar-submenu-header">
+                                        <a href="#" data-dismiss="navbar-submenu" class="navbar-submenu-back">Back</a>
+                                        <a href="#" data-dismiss="navbar-menu" class="navbar-menu-close">&times;</a>
+                                    </div>
+                                    <div class="navbar-submenu-content-title">Asia</div>
+                                    <ul class="navbar-submenu-content">
+                                        <li><a href="#">Indonesia</a></li>
+                                        <li><a href="#">Japan</a></li>
+                                        <li><a href="#">Laos</a></li>
+                                        <li><a href="#">Singapore</a></li>
+                                        <li><a href="#">Malaysia</a></li>
+                                        <li><a href="#">Indonesia</a></li>
+                                        <li><a href="#">Japan</a></li>
+                                        <li><a href="#">Laos</a></li>
+                                        <li><a href="#">Singapore</a></li>
+                                        <li><a href="#">Malaysia</a></li>
+                                    </ul>
+                                </div>
+                                <div class="navbar-submenu-content-wrapper" id="destination-africa">
+                                    <div class="navbar-submenu-header">
+                                        <a href="#" data-dismiss="navbar-submenu" class="navbar-submenu-back">Back</a>
+                                        <a href="#" data-dismiss="navbar-menu" class="navbar-menu-close">&times;</a>
+                                    </div>
+                                    <div class="navbar-submenu-content-title">Africa</div>
+                                    <ul class="navbar-submenu-content">
+                                        <li><a href="#">South Africa</a></li>
+                                        <li><a href="#">Morocco</a></li>
+                                        <li><a href="#">Tanzania</a></li>
+                                        <li><a href="#">Egypt</a></li>
+                                        <li><a href="#">Kenya</a></li>
+                                    </ul>
+                                </div>
+                                <div class="navbar-submenu-content-wrapper" id="destination-europe">
+                                    <div class="navbar-submenu-header">
+                                        <a href="#" data-dismiss="navbar-submenu" class="navbar-submenu-back">Back</a>
+                                        <a href="#" data-dismiss="navbar-menu" class="navbar-menu-close">&times;</a>
+                                    </div>
+                                    <div class="navbar-submenu-content-title">Europe</div>
+                                    <ul class="navbar-submenu-content">
+                                        <li><a href="#">Italy</a></li>
+                                        <li><a href="#">France</a></li>
+                                        <li><a href="#">Spain</a></li>
+                                        <li><a href="#">Greece</a></li>
+                                        <li><a href="#">Switzerland</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="navbar-submenu" data-target="#tours">Tours <i class="ri-arrow-down-s-line"></i></a>
+                            <div class="navbar-submenu-wrapper">
+                                <div class="navbar-submenu-menu-wrapper" id="tours">
+                                    <div class="navbar-submenu-header">
+                                        <a href="#" data-dismiss="navbar-submenu" class="navbar-submenu-back">Back</a>
+                                        <a href="#" data-dismiss="navbar-menu" class="navbar-menu-close">&times;</a>
+                                    </div>
+                                    <ul class="navbar-submenu-menu">
+                                        <li><a href="#" data-toggle="navbar-submenu-content navbar-submenu" data-target="#tour-asia" class="active">Asia Tour<i class="ri-arrow-right-s-line"></i></a></li>
+                                        <li><a href="#" data-toggle="navbar-submenu-content navbar-submenu" data-target="#tour-africa">Africa Tour<i class="ri-arrow-right-s-line"></i></a></li>
+                                        <li><a href="#" data-toggle="navbar-submenu-content navbar-submenu" data-target="#tour-europe">Europe Tour<i class="ri-arrow-right-s-line"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="navbar-submenu-content-wrapper active" id="tour-asia">
+                                    <div class="navbar-submenu-header">
+                                        <a href="#" data-dismiss="navbar-submenu" class="navbar-submenu-back">Back</a>
+                                        <a href="#" data-dismiss="navbar-menu" class="navbar-menu-close">&times;</a>
+                                    </div>
+                                    <div class="navbar-submenu-content-title">Asia Tour</div>
+                                    <ul class="navbar-submenu-content">
+                                        <li><a href="#">Indonesia</a></li>
+                                        <li><a href="#">Japan</a></li>
+                                        <li><a href="#">Laos</a></li>
+                                        <li><a href="#">Singapore</a></li>
+                                        <li><a href="#">Malaysia</a></li>
+                                        <li><a href="#">Indonesia</a></li>
+                                        <li><a href="#">Japan</a></li>
+                                        <li><a href="#">Laos</a></li>
+                                        <li><a href="#">Singapore</a></li>
+                                        <li><a href="#">Malaysia</a></li>
+                                    </ul>
+                                </div>
+                                <div class="navbar-submenu-content-wrapper" id="tour-africa">
+                                    <div class="navbar-submenu-header">
+                                        <a href="#" data-dismiss="navbar-submenu" class="navbar-submenu-back">Back</a>
+                                        <a href="#" data-dismiss="navbar-menu" class="navbar-menu-close">&times;</a>
+                                    </div>
+                                    <div class="navbar-submenu-content-title">Africa Tour</div>
+                                    <ul class="navbar-submenu-content">
+                                        <li><a href="#">South Africa</a></li>
+                                        <li><a href="#">Morocco</a></li>
+                                        <li><a href="#">Tanzania</a></li>
+                                        <li><a href="#">Egypt</a></li>
+                                        <li><a href="#">Kenya</a></li>
+                                    </ul>
+                                </div>
+                                <div class="navbar-submenu-content-wrapper" id="tour-europe">
+                                    <div class="navbar-submenu-header">
+                                        <a href="#" data-dismiss="navbar-submenu" class="navbar-submenu-back">Back</a>
+                                        <a href="#" data-dismiss="navbar-menu" class="navbar-menu-close">&times;</a>
+                                    </div>
+                                    <div class="navbar-submenu-content-title">Europe Tour</div>
+                                    <ul class="navbar-submenu-content">
+                                        <li><a href="#">Italy</a></li>
+                                        <li><a href="#">France</a></li>
+                                        <li><a href="#">Spain</a></li>
+                                        <li><a href="#">Greece</a></li>
+                                        <li><a href="#">Switzerland</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Packages</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="navbar-toggle">
+                    <i class="ri-menu-line"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- end: Navbar -->
+
+    <!-- start: Header -->
+    <header>
+        <div class="container">
+            <div class="header-image">
+                <img class="active" src="img/hero-bg-1.webp" alt="">
+                <img src="img/hero-bg-2.webp" alt="">
+                <img src="img/hero-bg-3.webp" alt="">
+            </div>
+            <div class="header-wrapper">
+                <h1 class="header-title">Discover the world one adventure at a time</h1>
+                <p class="header-description">Discover the world with tour. Explore new destinations and book your next tour today.</p>
+                <form action="" class="header-form">
+                    <input type="search" name="search" placeholder="Search for your next adventure...">
+                    <button type="submit" class="btn btn-primary"><i class="ri-search-line"></i> Search</button>
+                </form>
+            </div>
+            <div class="header-image-indicator">
+                <a href="#" class="active"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+        </div>
+    </header>
+    <!-- end: Header -->
+
+    <!-- start: Features -->
+    <section>
+        <div class="container">
+            <div class="features-wrapper">
+                <div>
+                    <div class="features-icon">
+                        <i class="ri-plane-line"></i>
+                    </div>
+                    <div class="features-title">Customizable Tours</div>
+                    <p class="features-description">Create your own itinerary and choose the destinations, activities, and experiences that match your interests and preferences.</p>
+                </div>
+                <div>
+                    <div class="features-icon">
+                        <i class="ri-book-mark-line"></i>
+                    </div>
+                    <div class="features-title">Expert Guides</div>
+                    <p class="features-description">Travel with knowledgeable and experienced guides who will provide insider insights, cultural experiences, and unforgettable memories.</p>
+                </div>
+                <div>
+                    <div class="features-icon">
+                        <i class="ri-time-line"></i>
+                    </div>
+                    <div class="features-title">Flexible Booking</div>
+                    <p class="features-description">Book your tour at any time and make changes to your itinerary with ease, thanks to our flexible booking system.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end: Features -->
+
+    <!-- start: Destinations -->
+    <section class="destinations">
+        <div class="container">
+            <h2 class="section-title">Top Destinations</h2>
+            <div class="destinations-wrapper">
+                <a href="#" data-slider="next" data-target="#destinations-list" class="slider-arrow next"><i class="ri-arrow-right-s-line"></i></a>
+                <a href="#" data-slider="prev" data-target="#destinations-list" class="slider-arrow prev"><i class="ri-arrow-left-s-line"></i></a>
+                <div class="destinations-list" id="destinations-list">
+                    <div>
+                        <div class="destinations-list-top">
+                            <img src="img/hero-bg-1.webp" alt="">
+                            <a href="#" class="destinations-list-top-favourite"><i class="ri-heart-3-line"></i></a>
+                            <span class="destinations-list-top-tag">Popular</span>
+                        </div>
+                        <div class="destinations-list-content">
+                            <div class="destinations-list-content-location"><i class="ri-global-line"></i> Marrakech, Morocco</div>
+                            <a href="#" class="destinations-list-content-title">Explore the Magic of Marrakech</a>
+                            <div class="destinations-list-content-rating">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+                            <div class="destinations-list-content-price">from <span>$123</span></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="destinations-list-top">
+                            <img src="img/hero-bg-1.webp" alt="">
+                            <a href="#" class="destinations-list-top-favourite"><i class="ri-heart-3-line"></i></a>
+                            <span class="destinations-list-top-tag">Popular</span>
+                        </div>
+                        <div class="destinations-list-content">
+                            <div class="destinations-list-content-location"><i class="ri-global-line"></i> Marrakech, Morocco</div>
+                            <a href="#" class="destinations-list-content-title">Explore the Magic of Marrakech</a>
+                            <div class="destinations-list-content-rating">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+                            <div class="destinations-list-content-price">from <span>$123</span></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="destinations-list-top">
+                            <img src="img/hero-bg-1.webp" alt="">
+                            <a href="#" class="destinations-list-top-favourite"><i class="ri-heart-3-line"></i></a>
+                            <span class="destinations-list-top-tag">Popular</span>
+                        </div>
+                        <div class="destinations-list-content">
+                            <div class="destinations-list-content-location"><i class="ri-global-line"></i> Marrakech, Morocco</div>
+                            <a href="#" class="destinations-list-content-title">Explore the Magic of Marrakech</a>
+                            <div class="destinations-list-content-rating">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+                            <div class="destinations-list-content-price">from <span>$123</span></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="destinations-list-top">
+                            <img src="img/hero-bg-1.webp" alt="">
+                            <a href="#" class="destinations-list-top-favourite"><i class="ri-heart-3-line"></i></a>
+                            <span class="destinations-list-top-tag">Popular</span>
+                        </div>
+                        <div class="destinations-list-content">
+                            <div class="destinations-list-content-location"><i class="ri-global-line"></i> Marrakech, Morocco</div>
+                            <a href="#" class="destinations-list-content-title">Explore the Magic of Marrakech</a>
+                            <div class="destinations-list-content-rating">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+                            <div class="destinations-list-content-price">from <span>$123</span></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="destinations-list-top">
+                            <img src="img/hero-bg-1.webp" alt="">
+                            <a href="#" class="destinations-list-top-favourite"><i class="ri-heart-3-line"></i></a>
+                            <span class="destinations-list-top-tag">Popular</span>
+                        </div>
+                        <div class="destinations-list-content">
+                            <div class="destinations-list-content-location"><i class="ri-global-line"></i> Marrakech, Morocco</div>
+                            <a href="#" class="destinations-list-content-title">Explore the Magic of Marrakech</a>
+                            <div class="destinations-list-content-rating">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+                            <div class="destinations-list-content-price">from <span>$123</span></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="destinations-list-top">
+                            <img src="img/hero-bg-1.webp" alt="">
+                            <a href="#" class="destinations-list-top-favourite"><i class="ri-heart-3-line"></i></a>
+                            <span class="destinations-list-top-tag">Popular</span>
+                        </div>
+                        <div class="destinations-list-content">
+                            <div class="destinations-list-content-location"><i class="ri-global-line"></i> Marrakech, Morocco</div>
+                            <a href="#" class="destinations-list-content-title">Explore the Magic of Marrakech</a>
+                            <div class="destinations-list-content-rating">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+                            <div class="destinations-list-content-price">from <span>$123</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end: Destinations -->
+
+    <!-- start: Attractions -->
+    <section>
+        <div class="container">
+            <h2 class="section-title">Top Attractions</h2>
+            <div class="attractions-wrapper">
+                <a href="#">
+                    <img src="img/hero-bg-2.webp" alt="">
+                    <div class="attraction-content">
+                        <div class="attraction-content-title">Colloseum</div>
+                        <p class="attraction-content-description">343 Tours and Activities</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="img/hero-bg-2.webp" alt="">
+                    <div class="attraction-content">
+                        <div class="attraction-content-title">Colloseum</div>
+                        <p class="attraction-content-description">343 Tours and Activities</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="img/hero-bg-2.webp" alt="">
+                    <div class="attraction-content">
+                        <div class="attraction-content-title">Colloseum</div>
+                        <p class="attraction-content-description">343 Tours and Activities</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="img/hero-bg-2.webp" alt="">
+                    <div class="attraction-content">
+                        <div class="attraction-content-title">Colloseum</div>
+                        <p class="attraction-content-description">343 Tours and Activities</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="img/hero-bg-2.webp" alt="">
+                    <div class="attraction-content">
+                        <div class="attraction-content-title">Colloseum</div>
+                        <p class="attraction-content-description">343 Tours and Activities</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="img/hero-bg-2.webp" alt="">
+                    <div class="attraction-content">
+                        <div class="attraction-content-title">Colloseum</div>
+                        <p class="attraction-content-description">343 Tours and Activities</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="img/hero-bg-2.webp" alt="">
+                    <div class="attraction-content">
+                        <div class="attraction-content-title">Colloseum</div>
+                        <p class="attraction-content-description">343 Tours and Activities</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="img/hero-bg-2.webp" alt="">
+                    <div class="attraction-content">
+                        <div class="attraction-content-title">Colloseum</div>
+                        <p class="attraction-content-description">343 Tours and Activities</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- end: Attractions -->
+
+    <!-- start: Testimonial -->
+    <section class="testimonial">
+        <div class="container">
+            <h2 class="section-title">Join the Adventure, Read Our Reviews</h2>
+            <div class="testimonial-wrapper">
+                <a href="#" data-slider="next" data-target="#testimonial-list" class="slider-arrow next"><i class="ri-arrow-right-s-line"></i></a>
+                <a href="#" data-slider="prev" data-target="#testimonial-list" class="slider-arrow prev"><i class="ri-arrow-left-s-line"></i></a>
+                <div class="testimonial-list" id="testimonial-list">
+                    <div>
+                        <img src="img/user.webp" alt="" class="testimonial-user-image">
+                        <p class="testimonial-content">"I had an amazing time on my tour with tour. The guide was fantastic and showed us all the best sights. I highly recommend tour.”</p>
+                        <div class="testimonial-user-name">Michael</div>
+                        <div class="testimonial-user-job">Teacher</div>
+                    </div>
+                    <div>
+                        <img src="img/user.webp" alt="" class="testimonial-user-image">
+                        <p class="testimonial-content">"I had an amazing time on my tour with tour. The guide was fantastic and showed us all the best sights. I highly recommend tour.”</p>
+                        <div class="testimonial-user-name">Michael</div>
+                        <div class="testimonial-user-job">Teacher</div>
+                    </div>
+                    <div>
+                        <img src="img/user.webp" alt="" class="testimonial-user-image">
+                        <p class="testimonial-content">"I had an amazing time on my tour with tour. The guide was fantastic and showed us all the best sights. I highly recommend tour.”</p>
+                        <div class="testimonial-user-name">Michael</div>
+                        <div class="testimonial-user-job">Teacher</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end: Testimonial -->
+
+    <!-- start: Tours -->
+    <section>
+        <div class="container">
+            <div class="tours-wrapper">
+                <a href="#" data-slider="next" data-target="#tours-list" class="slider-arrow next"><i class="ri-arrow-right-s-line"></i></a>
+                <a href="#" data-slider="prev" data-target="#tours-list" class="slider-arrow prev"><i class="ri-arrow-left-s-line"></i></a>
+                <div class="tours-list" id="tours-list">
+                    <div>
+                        <div class="tours-image">
+                            <img src="img/hero-bg-3.webp" alt="">
+                        </div>
+                        <div class="tours-title">Adventure Tours</div>
+                    </div>
+                    <div>
+                        <div class="tours-image">
+                            <img src="img/hero-bg-3.webp" alt="">
+                        </div>
+                        <div class="tours-title">Adventure Tours</div>
+                    </div>
+                    <div>
+                        <div class="tours-image">
+                            <img src="img/hero-bg-3.webp" alt="">
+                        </div>
+                        <div class="tours-title">Adventure Tours</div>
+                    </div>
+                    <div>
+                        <div class="tours-image">
+                            <img src="img/hero-bg-3.webp" alt="">
+                        </div>
+                        <div class="tours-title">Adventure Tours</div>
+                    </div>
+                    <div>
+                        <div class="tours-image">
+                            <img src="img/hero-bg-3.webp" alt="">
+                        </div>
+                        <div class="tours-title">Adventure Tours</div>
+                    </div>
+                    <div>
+                        <div class="tours-image">
+                            <img src="img/hero-bg-3.webp" alt="">
+                        </div>
+                        <div class="tours-title">Adventure Tours</div>
+                    </div>
+                    <div>
+                        <div class="tours-image">
+                            <img src="img/hero-bg-3.webp" alt="">
+                        </div>
+                        <div class="tours-title">Adventure Tours</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end: Tours -->
+
+    <!-- start: CTA -->
+    <section>
+        <div class="container">
+            <div class="cta-wrapper">
+                <h2 class="section-title">Book Your Next Adventure Today</h2>
+                <p>Explore new destinations and create unforgettable memories with our carefully curated tours.</p>
+                <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+        </div>
+    </section>
+    <!-- end: CTA -->
+
+    <!-- start: Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <a href="#" class="footer-logo">
+                    <img src="img/tour-logo.png" alt="Tour logo">
+                </a>
+                <div class="footer-social">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <div class="footer-links-title">Company</div>
+                    <ul class="footer-links-list">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer-links-title">Company</div>
+                    <ul class="footer-links-list">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer-links-title">Company</div>
+                    <ul class="footer-links-list">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © Tour. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- end: Footer -->
+
+    <script src="script.js"></script>
+</body>
+</html>
